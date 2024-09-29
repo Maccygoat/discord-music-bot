@@ -71,9 +71,11 @@ export class MusicLinkHandler {
       .join(', ');
 
     const thumbnailUrl = songLinkData.thumbnailUrl;
+    const songTitle = songLinkData.songTitle;
+    const songArtistName = songLinkData.songArtistName;
 
     message.reply({
-      content: `-# This song is also available on ${otherPlatforms}. [Thumbnail URL](${thumbnailUrl}) `,
+      content: `-# This song is also available on ${otherPlatforms}. [Thumbnail URL](${thumbnailUrl}) \n**${songLinkData.songTitle}** by **${songLinkData.songArtistName}**`,
       allowedMentions: { repliedUser: false },
     });
   }
