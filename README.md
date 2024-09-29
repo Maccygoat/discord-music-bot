@@ -14,7 +14,7 @@ Make sure you have [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.
 1. Clone the repository.
 2. Run `yarn` to install dependencies.
 3. Configure the environment variables by copying the `template.env` file to `.env` and filling in the values. See [Environment Variables](#environment-variables) for more information.
-4. Run `yarn start:dev` to start the bot in development mode. The bot will now be running and you can make changes to the code. The bot will automatically restart when you save changes.
+4. Run `yarn start:dev` to start the bot in development mode. The bot will now be running and you can make changes to the code. The bot should automatically restart when you save changes.
 
 This bot was stolen and modified from https://github.com/nllcommunity/discord-norsk-bott. I am not a good programmer. I mostly deleted stuff what I didn't need and added like 5 lines of code. Feel free to improve upon it yourself.
 
