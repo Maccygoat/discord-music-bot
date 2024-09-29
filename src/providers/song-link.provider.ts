@@ -9,6 +9,8 @@ export interface SongLinks {
   originalPlatform: SongLinkApiPlatform;
   otherPlatformUrls: Partial<Record<SongLinkApiPlatform, string>>;
   thumbnailUrl: string;
+  songTitle: string;
+  songArtistName: string;
 }
 
 @Injectable()
@@ -63,6 +65,9 @@ export class SongLinkProvider {
       return null;
     }
 
-    return { originalPlatform, otherPlatformUrls, thumbnailUrl };
+    const songTitle = originalEntity.title;
+    const songArtistName = originalEntity.artistName;
+
+    return { originalPlatform, otherPlatformUrls, thumbnailUrl, songTitle, songArtistName };
   }
 }
