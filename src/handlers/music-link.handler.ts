@@ -12,7 +12,7 @@ import {
 } from './guards/index.js';
 
 const possibleSongLinkRegex =
-  /(https?:\/\/(?:www\.)?((?:(music\.)?amazon|audiomack|play\.anghami|boomplay|deezer|geo\.music\.apple|play\.napster|pandora|soundcloud|listen\.tidal|((music|www)\.)?youtube|open\.spotify)\.com|youtu\.be|audius\.co|music\.yandex\.ru)\/[^\s)>]+)/;
+  /(https?:\/\/(?:www\.)?((?:(music\.)?amazon|audiomack|play\.anghami|boomplay|deezer|geo\.music\.apple|play\.napster|pandora|soundcloud|((www|listen)\.)?tidal|((music|www)\.)?youtube|open\.spotify)\.com|youtu\.be|audius\.co|music\.yandex\.ru)\/[^\s)>]+)/;
 
 @Injectable()
 export class MusicLinkHandler {
