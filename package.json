@@ -43,7 +43,7 @@
     "@types/fast-levenshtein": "^0.0.4",
     "@types/jest": "^29.5.12",
     "@types/node": "^24.0.0",
-    "@types/supertest": "^6.0.2",
+    "@types/supertest": "^7.0.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
     "eslint": "^9.7.0",
