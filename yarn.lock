@@ -813,12 +813,12 @@ __metadata:
   linkType: hard
 
 "@notionhq/client@npm:^2.2.15":
-  version: 2.2.15
-  resolution: "@notionhq/client@npm:2.2.15"
+  version: 2.3.0
+  resolution: "@notionhq/client@npm:2.3.0"
   dependencies:
     "@types/node-fetch": "npm:^2.5.10"
     node-fetch: "npm:^2.6.1"
-  checksum: 10c0/4153c2e5b47d2ba141d025f2753d0e79ca9b9f25bd8bbdfa9dbf74fe4c2e157ea7964c59387d05163972c4575830bdc48d02db29270e244d81398df0f89fd7dd
+  checksum: 10c0/48af6e0d44c97892374755fbfbca6eb2f27e5ad8baabc511d48ec02cc7d6a1488b1692423ff426cb77c39ac5b4c9bd5498d4b6bc40e295d149ff3d24ce3d8ecc
   languageName: node
   linkType: hard
 
