@@ -1,7 +1,7 @@
 {
   "name": "discord-music-bot",
   "private": true,
-  "packageManager": "yarn@4.5.0",
+  "packageManager": "yarn@4.13.0",
   "bin": "main.js",
   "type": "module",
   "scripts": {
@@ -79,7 +79,7 @@
   },
   "volta": {
     "node": "22.9.0",
-    "yarn": "4.5.0"
+    "yarn": "4.13.0"
   },
   "engines": {
     "node": ">=22.5.1",
